@@ -1,0 +1,59 @@
+.story{
+     height: 800px ;
+    margin-top : 150px ;
+    margin-bottom : 150px ;
+    margin-left: 105px ;
+     
+    margin-right: 100px ;
+}
+.storytitle{
+color: #053544;
+font-size: 50px ;
+ text-align: left ;
+ margin-bottom: 50px ;
+ font-size: 50px;
+ font-weight: 550;
+ font-family: Arial, Helvetica, sans-serif ;
+ margin-left: 10px;
+}
+.storytext{
+    text-align: left;
+    font-size: 18px ;
+    gap : 100px ;
+    display: flex ;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-left: 10px;
+}
+.storybg{
+    position: absolute;
+    width: 87%;
+    z-index: -1 ;
+    left : 50px ;
+    margin-top : -70px ;
+    margin-left: 3.4%;
+    margin-right: 5.5%;
+}
+.storying{
+    margin-left: 450px ;
+    margin-top: -100px ;
+    padding-top: 97px;
+}
+.storyvector{
+    margin-top: -500px ;
+   margin-left: 300px;
+
+}
+
+@media only screen and (max-width:580px) {
+    .storytext{
+        font-size: 14px;
+    }
+
+    .story{
+        padding-left: 1em;
+        margin-left: 4px;
+    }
+    .storying img {
+       margin-right: 0em;
+    }
+}

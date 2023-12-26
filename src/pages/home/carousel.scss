@@ -1,0 +1,180 @@
+.Carowelcometext{
+  display: flex ;
+  flex-direction: column ;
+}
+
+.Carowelcome{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #262626 ;
+  font-size: 50px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.Carowelcomefull{
+  flex : 2 ;
+font-size:50px;
+line-height: 70px;
+width:  500px ;
+
+}
+.Carouselclasses{
+   margin-left: -212px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #262626 ;
+  font-size: 50px;
+  padding-bottom: 5px;
+ 
+  // padding-left: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Carokavita{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #262626 ;
+  margin-left: -355px;
+  font-size: 50px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Carowelcomgroup{
+  display: flex ;  
+  // font-family: 'Abhaya Libre', serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px  ;
+  margin-left: 50px ;
+  height : 500px !important  ;
+}
+.display{
+  flex: 1 ;
+}
+.explore{
+  font-size: 20px ;
+ // margin-left: -150px;
+ color: white ;
+ margin-top: -15px ;
+ cursor: pointer;
+
+}
+.exploreoutline{
+  box-sizing: border-box;
+  background-color: black;
+  height: 40px ;
+  width: 400px ;
+  font-family: 'Abhaya Libre', serif;
+//   margin: 10px ;
+  border-radius: 30px;
+  border: 1px solid black ;
+}
+.inhale{
+  font-size: 25px ;
+  margin-left: -236px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.display5{
+ 
+}
+  .vectorIcon{
+      position:absolute;
+      z-index: -1 ;
+  
+      height: 183.7px;
+      opacity: 0.5;
+ 
+
+}
+
+
+// new css 
+
+.welcomegrid-container{
+  display: flex ;
+  flex-direction: row ;
+  gap : 4px;
+}
+.displaygrid{
+  display: flex;
+  flex-direction: column;
+  // gap : 10px ;
+}
+//changrement 
+.welcomgroupcorporate{
+  display: flex ;
+ height : 500px !important  ;
+ width : 1274px;
+ padding-left: 20px;
+}
+
+
+.corporate{
+  font-size:  18px ;
+  text-align:  left ; 
+  line-height: 41px ;
+  margin-right: 50px ;
+  padding-top: 10px;
+
+}
+
+
+.welcomecorporate{
+  text-align: left ;
+  font-size: 50px ;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #262626 ;
+   line-height: 60px;
+
+
+}
+
+.welcomecorporatetext{
+  margin-left: 50px ;
+  // font-family: 'Abhaya Libre', serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.welcomefullcorporate
+{
+   
+}
+.explorecorporate{
+  font-size: 20px ;
+ // margin-left: -150px;
+ color: white ;
+ margin-top: 6px ;
+ cursor: pointer;
+
+}
+.exploreoutlinecorporate{
+  box-sizing: border-box;
+  background-color: black;
+  height: 40px ;
+  width: 400px ;
+  font-family: 'Abhaya Libre', serif;
+margin-top:  10px ;
+  border-radius: 30px;
+  border: 1px solid black ;
+}
+
+.carousel1{
+  padding-top:7%;
+}
+
+
+/// carousel 
+/// 
+/// 
+///  
+.my-slider-progress {
+// background: #ccc;
+background-color: black;
+}
+
+.my-slider-progress-bar {
+background: greenyellow;
+height: 2px;
+transition: width 400ms ease;
+width: 0;
+}
+
+.custom-slide-content{
+  padding-left: 30px;
+}

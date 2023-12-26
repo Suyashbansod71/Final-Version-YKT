@@ -1,0 +1,60 @@
+.book{
+    margin-top: 150px ;
+    margin-right: 150px ;
+    }
+    .bookdetails{
+        display: flex;
+        margin-left: 200px ;
+        flex: 1 ,1 ;
+    }
+    .booktext1{
+        font-size: 50px ;
+      
+    }
+    .booktext{
+        position: relative;
+        flex : 1 ;
+        margin-top: 100px ;
+    }
+    .bookexplore{
+        font-size: 20px ;
+        color: white;
+        margin: 10px ;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    .bookexplore:hover{
+        transform: scale(1.2); 
+    }
+    .booknowcover{
+        position: absolute;
+        border: solid black ;
+        box-sizing: border-box;
+        background-color: black;
+        height:  50px;
+        border-radius: 30px  ;
+        width : 150px ;
+        margin-top: 40px ;
+        margin-left: 200px;
+    }
+    .bookvector1{
+        position : absolute;
+        top : -200px ;
+        margin-left: 250px;
+    }
+    .bookimg{
+        z-index: -1 ;
+        position: relative;
+    
+    }
+    .bookvector2{
+        position : absolute;
+        top : 230px ;
+         
+        
+    }
+    .bookvector3{
+        margin-top: 30px ;
+        margin-left: 70px ;
+        position : absolute;
+    }
