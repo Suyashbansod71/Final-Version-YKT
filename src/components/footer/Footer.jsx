@@ -3,7 +3,7 @@
 // import { useNavigate } from 'react-router-dom'
 // const Footer = () => {
  
-//    const navigate = useNavigate();
+  
 
 //   const handleKav = () => {
 //      try {
@@ -124,14 +124,28 @@
 
 
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './footer.scss'
 
 const Footer = () => {
+ 
+   const navigate = useNavigate();
+
+    const handleKav = () => {
+     try {
+      window.location.href = '#top';
+       navigate('/');
+      
+     } catch (error) {
+       alert('error')
+     }
+  }
+
   return (
     <div className='footer'>
        {/* <img src="./main-logo.jpeg" alt="" height= '100px' width='100px'/> */}
      <div className='sb_footer section_padding'>
-     <img src="./main-logo.jpeg" alt="" height= '100px' width='100px'/>
+     <img onClick={handleKav} className='foot_logo' src="./main-logo.jpeg" alt="" />
       <div className='sb_footer-links'>
         <div className='sb_footer-links_div'>
           <h4>Important links</h4>
@@ -147,13 +161,13 @@ const Footer = () => {
         </div>
         <div className='sb_footer-links_div'>
           <h4> Classes Types</h4>
-          <a href='/'className='Foot-a'>
+          <a href='/classestype'className='Foot-a'>
             <p>Yoga</p>
           </a>
-          <a href='/'className='Foot-a'>
+          <a href='/classestype'className='Foot-a'>
             <p>Fusion</p>
           </a>
-          <a href='/'className='Foot-a'>
+          <a href='/classestype'className='Foot-a'>
             <p>Meditation</p>
           </a>
         </div>
@@ -163,7 +177,7 @@ const Footer = () => {
             <p>FAQs</p>
           </a>
           <a href='/terms'className='Foot-a'>
-            <p>terms & Conditions</p>
+            <p>Terms & Conditions</p>
           </a>
           <a href='/'className='Foot-a'>
             <p>Privacy Policy</p>
@@ -175,14 +189,18 @@ const Footer = () => {
             <p>+91-8953279337</p>
           </a>
           <a href='/'className='Foot-a'>
-            <p>yogawithkavitatripathi@gmail.com</p>
+            <p>Y@gmail.com</p>
           </a>
         </div>
         <div className='sb_footer-links_div'>
-          <h4>Coming Soon</h4>
-          {/* <p><img src={''} alt=""/></p>
-          <p><img src={''} alt=""/></p>
-          <p><img src={''} alt=""/></p> */}
+          <h4>Social Links</h4>
+          <p ><img src={'./Instagram.png'} alt=" " />
+              <a className='foot-p' href='https://www.instagram.com/yogawithkavitatripathi/' target="_blank" rel="noopener noreferrer">Instagram</a>
+          </p>
+          <p><img src={'./Facebook.png'} alt=" " />
+          <a className='foot-p' href='https://www.facebook.com/profile.php?id=61551485098114'  target="_blank" rel="noopener noreferrer">Facebook</a></p>
+          <p><img src={'./Youtube.png'} alt=""/>
+          <a className='foot-p' href='https://youtube.com/@YogaWithKavitaTripathi?si=DGzr9VX9th--Mi3i'>Youtube</a></p>
         </div>
       </div>
      </div>

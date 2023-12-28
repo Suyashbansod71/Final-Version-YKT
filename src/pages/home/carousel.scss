@@ -42,7 +42,7 @@ width:  500px ;
   // font-family: 'Abhaya Libre', serif;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px  ;
-  margin-left: 50px ;
+  margin-left: 12em ;
   height : 500px !important  ;
 }
 .display{
@@ -177,4 +177,30 @@ width: 0;
 
 .custom-slide-content{
   padding-left: 30px;
+}
+.carousel-control-prev-icon {
+  background-color: lightgrey;
+  padding-left: 1em;
+}
+.carousel-control-next-icon{
+  background-color: lightgrey;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: grey;
+}
+.carousel-indicators .active {
+  background-color: black;
+}
+@media screen and (max-width:580px) {
+
+    
+    .welcomecorporate{
+      font-size: 45px;
+    }
+    .corporate{
+      margin-left: 1em;
+      text-overflow: clip;
+      text-align: left;
+    }
 }

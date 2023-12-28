@@ -4,7 +4,7 @@
     }
     .bookdetails{
         display: flex;
-        margin-left: 200px ;
+        margin-left: 160px;
         flex: 1 ,1 ;
     }
     .booktext1{
@@ -31,11 +31,11 @@
         border: solid black ;
         box-sizing: border-box;
         background-color: black;
-        height:  50px;
-        border-radius: 30px  ;
-        width : 150px ;
+        height: 49px;
+        border-radius: 49px;
+        width: 120px;
         margin-top: 40px ;
-        margin-left: 200px;
+        margin-left: 266px;
     }
     .bookvector1{
         position : absolute;
@@ -50,11 +50,92 @@
     .bookvector2{
         position : absolute;
         top : 230px ;
-         
-        
+        width: 200px;
+        height: 300px;   
     }
     .bookvector3{
         margin-top: 30px ;
         margin-left: 70px ;
         position : absolute;
+    }
+    .bookvec{
+        width: 500px;
+        height: 500px;
+    }
+
+
+    @media screen and (max-width:644px) {
+        
+        .bookdetails {
+            display: flex;
+            flex-direction: row;
+            margin-left: 15px;
+            flex: 1, 1;
+            max-width: 100%;
+        }
+
+        .bookvec{
+            width: 220px;
+            height: 200px;
+        }
+        .bookvector2 {
+            position: absolute;
+            top: 21px;
+            width: 104px;
+            height: 124px;
+        }
+        .booktext {
+            position: relative;
+            margin-top: 194px;
+            margin-left: -15em;
+        }
+        .booktext1 {
+            font-size: 21px;
+    margin-left: 13em;
+    margin-top: -8.5em;
+        }
+        .booknowcover{
+            margin-left: 249px;
+            margin-top: 7px;
+        }
+        .bookvector3{
+            display: none;
+        }
+        .bookvector1{
+            display: none;
+        }
+    }
+
+
+    @media screen and (min-width:645px) and (max-width:991px){
+     
+        .bookvec {
+            width: 345px;
+            height: 396px;
+        }
+        .bookvector2 {
+            position: absolute;
+            top: 174px;
+            width: 192px;
+            height: 300px;
+        }
+        .bookdetails{
+        margin-left: 15px;
+      }
+      .booktext1{
+        margin-left: 2em;
+        margin-top: -1.5em;
+        font-size: 30px;
+      }
+      .booknowcover{
+        margin-left: 27px;
+      }
+      .bookvector1{
+        margin-left: 10px;
+      }
+      .bookvector3{
+        margin-left: 21px;
+      }
+
+      
     }

@@ -154,5 +154,21 @@
   }
 
 
+  @media screen and (min-width: 581px) and (max-width: 990px){
   
+    .form-container img{
+      width: 80%;
+    }
+    .contact-container{
+      max-width: 894px;
+      padding-left: 2em;
+      padding-right: 3em;
+      margin-right: 8em;
+    margin-left: 3em;
+    }
+    .whatsapp-icon-container{
+      margin-right: 6em;
+    }
+    
+  } 
   

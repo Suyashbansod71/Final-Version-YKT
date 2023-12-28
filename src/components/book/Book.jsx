@@ -25,8 +25,8 @@ const Book = () => {
  
 
   <div className="bookimg">
-  <img className='bookvector2' src= "./bookvector2.png" alt = ""  width= "200px" height= "300px"/>
-      <img  src ="./bookimg1.svg"  alt =""   width="500px" height= "500px"/>
+  <img className='bookvector2' src= "./bookvector2.png" alt = ""  />
+      <img  className='bookvec' src ="./bookimg1.svg"  alt =""   />
       
   </div>
   <div className="booktext">

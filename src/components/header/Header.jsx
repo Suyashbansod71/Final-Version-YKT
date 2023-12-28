@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 import { useNavigate } from 'react-router-dom';
 import "./header.scss"
 const Header = () => {
+
     const [color, setColor] = useState(false);
-    const [activeTab, setActiveTab] = useState('home');
 
   const changeColor = () => {
     if(window.scrollY >= 90) {
@@ -15,7 +15,7 @@ const Header = () => {
   const navigate = useNavigate();
   const handleHome = ()=> {
     try {
-      setActiveTab('home');
+      // setActiveTab('home');
       window.location.href = '#top';
       navigate('/')
     } catch (error) {
@@ -25,7 +25,7 @@ const Header = () => {
 
   const ClassTypes = ()=> {
     try {
-      setActiveTab('classes');
+      // setActiveTab('classes');
       window.location.href = '#top';
       navigate('/classestype')
     } catch (error) {
@@ -34,7 +34,7 @@ const Header = () => {
   }
   const Memberships = ()=> {
     try {
-      setActiveTab('memberships');
+      // setActiveTab('memberships');
       window.location.href = '#top';
       navigate('/membership')
     } catch (error) {
@@ -43,44 +43,53 @@ const Header = () => {
   }
   const ContactUs = ()=> {
     try {
-      setActiveTab('contact');
+      // setActiveTab('contact');
       window.location.href = '#top';
       navigate('/contactUs')
     } catch (error) {
       alert('error')
     }
   }
+  const [activeTab, setActiveTab] = useState('home');
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
 
-  window.addEventListener('scroll', changeColor)
+ 
+window.addEventListener('scroll', changeColor)
   return (
-    <nav className={color ?'headermain header-bg' : 'headermain'}>
+    <nav className='headermain'>
         <div className='headerComp'>
             <div className='headerlogo' onClick={handleHome}>
             <img src="./main-logo.svg" alt="" height='100px' width= '120px'/>
-            {/* <div className='Title'>ShivaYog
-            </div> */}
+      
             </div>
             
             
-            <div className = "headerstruct" >
-                <div onClick={handleHome} className={activeTab === 'home' ? 'check active' : 'check'}>
+            <div className = 'headerstruct'>
+              
+                <div onClick={handleHome} className='check'>
                 Home
                 </div>
               
-                <div onClick={ClassTypes} className={activeTab === 'classes' ? 'check active' : 'check'}>
+                <div onClick={ClassTypes} className='check'>
                
-                Classes Types
+                Classes 
                 </div>
-                <div onClick={Memberships} className={activeTab === 'memberships' ? 'check active' : 'check'}>
+                <div onClick={Memberships} className= 'check'>
                 Memberships
               
                 </div>
-                <div onClick={ContactUs} className={activeTab === 'contact' ? 'check active' : 'check'}>
+                <div onClick={ContactUs} className='check'>
                 Contact Us
                
                 </div>
+                
             </div>
+            
+
         </div>
     </nav>
   )

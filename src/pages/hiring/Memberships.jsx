@@ -150,7 +150,7 @@ const Memberships = () => {
   </div>
   
 
-  <a href="https://wa.me/918953279337" class="whatsapp-button" target="_blank">
+  <a href="https://wa.me/918953279337" class="M-whatsapp-button" target="_blank">
   <div class="whatsapp-icon-container">
     <i class="fa fa-whatsapp whatsapp-icon" style={{ fontSize: '1.8em', color: '#15eb80' }}></i>
     <img src='./whatsappLogo.png' alt='WhatsApp Logo' ></img>

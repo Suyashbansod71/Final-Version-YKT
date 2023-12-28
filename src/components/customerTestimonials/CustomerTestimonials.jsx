@@ -14,10 +14,10 @@ const CustomerTestimonials = () => {
        <div className="customerphoto1">
      <img src ="./man.png" alt =""  width= "80px" height= "80px"/>
      </div>
-      <div className="customername1">Archit Yadav</div>
+      <div className="customername1">Priyanka Bhandari</div>
       </div>
     <div className="customersays1">
-    Yoga transformed me. Serene sessions at our center, guided by experts, rejuvenate with gentle asanas and calming meditation. Improved flexibility and mindfulness are essential. Grateful for positive changes in my life.
+    My experience with my yoga coach has been truly transformative. The online classes not only rejuvenated my energy levels but also played a pivotal role in my journey to reduce belly fat. The coach's expertise and personalized guidance made each session enjoyable and effective. I'm grateful for the positive changes in my well-being. A solid 5-star recommendation!🫶🫶❤️ 
 
 </div>
     </div>
@@ -26,11 +26,11 @@ const CustomerTestimonials = () => {
     <div className="customerphoto1">
           <img src ="./man.png" alt =""  width= "80px" height= "80px"/>
           </div>
-      <div className="customername1">Abhi Chaudhary</div>
+      <div className="customername1">Mayank Shekhar</div>
       </div>
     <div className="customersays1">
    
-Yoga transformed my fitness journey, enhancing physical and mental resilience. Varied poses strengthen me, while deep-breathing and meditation bring daily calm. Grateful for dedicated instructors and the uplifting environment.</div>
+    Enjoyed the yoga session with instructor Kavita. She was very helpful and gave sufficient time to each individual in getting the correct stance/ posture and ensured that we are not just doing it but understanding the benefits as well. One of the best instructor for yoga. Must try to experience it.🙌😇😌🤩 </div>
     </div>
 
 
@@ -40,11 +40,11 @@ Yoga transformed my fitness journey, enhancing physical and mental resilience. V
     <div className="customerphoto1">
           <img src ="./man.png" alt =""  width= "80px" height= "80px"/>
       </div>
-      <div className="customername1">Mukul Sharma</div> 
+      <div className="customername1">Soumya Pande</div> 
       </div>    
       <div className="customersays1">
 
-      Joining a yoga community was a great decision. Camaraderie and support create an inspiring space. The shared commitment to growth turns each class into a journey toward a balanced life. Yoga enriches life beyond the mat.</div>
+      Kavita is very excellent yoga teacher. Her classes are very energising and fun. She's very patient, calm and inspiring  teacher for someone who doesn't normally practice . Thoroughly enjoy my yoga classes. Highly recommend for beginners as well as for experienced</div>
     </div>
     </div>
     </div>

@@ -60,11 +60,12 @@ const Carousel1 = () => {
       <div className="display">
       <div class="welcomegrid-container">
       <div className="displaygrid">
+       
  <img  className='display1'   src = "./display1.png" alt = " " width = "299px " height= "178px"></img>
  <img  className='display6'    src = "./display6.png" alt = " " width = "299px " height= "178px"></img>
  </div>
   <img  className= " display5" src = "./display5.png" alt = " " width = "465px " height= "358px"></img>
-  <img className= "vectorIcon" alt="" src="vectorwelcom.svg" />
+  <img  className= "vectorIcon" alt="" src="vectorwelcom.svg" />
  
   </div>
    </div>
@@ -77,9 +78,9 @@ const Carousel1 = () => {
           {/* Custom Content for Slide 2 */}
           <div className="custom-slide-content">
          
-   <div className="welcomgroupcorporate">
+   <div className="Carowelcomgroup">
 
-<div className="welcomecorporatetext">
+{/* <div className="welcomecorporatetext">
   <div className="welcomefullcorporate">
 <div className="welcomecorporate">Welcome to Corporate Yoga </div>
 <div className="corporate">Corporate Yoga Is Being Embraced By Many Progressive Business And Is A Great Benefits And Is A Geate Benefit To The Workplace </div>
@@ -87,7 +88,20 @@ const Carousel1 = () => {
  <div className="explorecorporate" onClick={handleExplore}>Explore Now </div>
  </div>
 </div>
- </div>
+ </div> */}
+ <div className="Carowelcometext">
+    <div className="Carowelcomefull">
+  <div className="Carowelcome">Welcome to  </div>
+  <div className="Carouselclasses">Corporate Yoga</div>
+  
+  <div className="inhale">Corporate Yoga Is Being Embraced By Many Progressive Business And Is A Great Benefits And Is A Geate Benefit To The Workplace  </div>
+  <div className="exploreoutline">
+   <div className="explore" onClick={handleExplore}>Explore Now </div>
+   </div>
+  </div>
+  
+  
+   </div>
 
 
     <div className="display">
@@ -112,9 +126,9 @@ const Carousel1 = () => {
           {/* Custom Content for Slide 3 */}
           <div className="custom-slide-content">
            
- <div className="welcomgroupcorporate">
+ <div className="Carowelcomgroup">
 
-<div className="welcomecorporatetext">
+{/* <div className="welcomecorporatetext">
   <div className="welcomefullcorporate">
 <div className="welcomecorporate">Discover Yourself with Yoga </div>
 <div className="corporate">Yoga unveils inner strength, promotes self-awareness, and fosters tranquility, guiding you to discover profound self-harmony and balance.</div>
@@ -122,7 +136,20 @@ const Carousel1 = () => {
  <div className="explorecorporate" onClick={handleExplore}>Explore Now </div>
  </div>
 </div>
- </div>
+ </div> */}
+ <div className="Carowelcometext">
+    <div className="Carowelcomefull">
+  <div className="Carowelcome">Discover</div>
+  <div className="Carouselclasses">Yourself With</div>
+  <div className="Carokavita">Yoga</div>
+  <div className="inhale">Yoga unveils inner strength, promotes self-awareness, and fosters tranquility, guiding you to discover profound self-harmony and balance.</div>
+  <div className="exploreoutline">
+   <div className="explore" onClick={handleExplore}>Explore Now </div>
+   </div>
+  </div>
+  
+  
+   </div>
 
 
     <div className="display">
