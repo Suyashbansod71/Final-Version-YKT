@@ -1,98 +1,131 @@
-import React, {useState} from 'react'
-import { useNavigate } from 'react-router-dom';
-import "./header.scss"
-const Header = () => {
+// import React, {useState} from 'react'
+// import { NavLink, useNavigate } from 'react-router-dom';
+// import "./header.scss"
+// const Header = () => {
 
-    const [color, setColor] = useState(false);
+//     const [color, setColor] = useState(false);
 
-  const changeColor = () => {
-    if(window.scrollY >= 90) {
-      setColor(true)
-    }else{
-      setColor(false)
-    }
-  }
-  const navigate = useNavigate();
-  const handleHome = ()=> {
-    try {
-      // setActiveTab('home');
-      window.location.href = '#top';
-      navigate('/')
-    } catch (error) {
-      alert('error')
-    }
-  }
 
-  const ClassTypes = ()=> {
-    try {
-      // setActiveTab('classes');
-      window.location.href = '#top';
-      navigate('/classestype')
-    } catch (error) {
-      alert('error')
-    }
-  }
-  const Memberships = ()=> {
-    try {
-      // setActiveTab('memberships');
-      window.location.href = '#top';
-      navigate('/membership')
-    } catch (error) {
-      alert('error')
-    }
-  }
-  const ContactUs = ()=> {
-    try {
-      // setActiveTab('contact');
-      window.location.href = '#top';
-      navigate('/contactUs')
-    } catch (error) {
-      alert('error')
-    }
-  }
-  const [activeTab, setActiveTab] = useState('home');
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+//     const scrollToTop = () => {
+//       window.scrollTo({
+//         top: 0,
+//         behavior: 'smooth'
+//       });
+//     };
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!isMobileMenuOpen);
-  };
 
+//   const changeColor = () => {
+//     if(window.scrollY >= 90) {
+//       setColor(true)
+//     }else{
+//       setColor(false)
+//     }
+//   }
+//   const navigate = useNavigate();
+//   const handleHome = ()=> {
+//     try {
+
+//       window.location.href = '#top';
+//       navigate('/')
+//     } catch (error) {
+//       alert('error')
+//     }
+//   }
  
-window.addEventListener('scroll', changeColor)
-  return (
-    <nav className='headermain'>
-        <div className='headerComp'>
-            <div className='headerlogo' onClick={handleHome}>
-            <img src="./main-logo.svg" alt="" height='100px' width= '120px'/>
+// window.addEventListener('scroll', changeColor)
+//   return (
+//     <nav className='headermain'>
+//         <div className='headerComp'>
+//             <div className='headerlogo' onClick={handleHome}>
+//             <img src="./main-logo.svg" alt="" height='100px' width= '120px'/>
       
-            </div>
+//             </div>
             
-            
-            <div className = 'headerstruct'>
+//              <div className='menu'>
+//                  <span></span>
+//                  <span></span>
+//                  <span></span>
+//              </div>
+//             <div className = 'headerstruct'>
               
-                <div onClick={handleHome} className='check'>
-                Home
-                </div>
+           
+//                   <NavLink to="/" onClick={scrollToTop} className='check' >
+//                 Home
+//                 </NavLink>
               
-                <div onClick={ClassTypes} className='check'>
+//                 <NavLink to = "/classestype"onClick={scrollToTop} className='check'>
                
-                Classes 
-                </div>
-                <div onClick={Memberships} className= 'check'>
-                Memberships
+//                 Classes 
+//                 </NavLink>
+//                 <NavLink to = "/membership" onClick={scrollToTop} className= 'check'>
+//                 Memberships
               
-                </div>
-                <div onClick={ContactUs} className='check'>
-                Contact Us
+//                 </NavLink>
+//                 <NavLink to = "/contactUs" onClick={scrollToTop} className='check'>
+//                 Contact Us
                
-                </div>
+//                 </NavLink>
                 
-            </div>
+//             </div>
             
 
-        </div>
+//         </div>
+//     </nav>
+//   )
+// }
+
+// export default Header
+
+import React, { useState } from "react";
+
+import "./header.scss";
+import { Link, NavLink } from "react-router-dom";
+
+const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+   
+   
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+
+
+  return (
+    <nav>
+      <Link to="/" onClick={scrollToTop} className="title">
+        
+      <img src="./main-logo.svg" alt="" height='100px' width= '120px'/>
+      ShivaYog
+      </Link>
+      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className="headerstruct">
+
+      
+      <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <NavLink to="/" onClick={scrollToTop}>Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/classestype" onClick={scrollToTop}>Classes</NavLink>
+        </li>
+        <li>
+          <NavLink to="/membership" onClick={scrollToTop}>Membership</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contactUs" onClick={scrollToTop}>Contact Us</NavLink>
+        </li>
+      </ul>
+      </div>
     </nav>
-  )
-}
+  );
+};
+
 
 export default Header

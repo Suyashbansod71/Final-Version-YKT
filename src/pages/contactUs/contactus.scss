@@ -153,6 +153,12 @@
     background-color: #128c7e;
   }
 
+  @media screen and (min-width: 580px) and (max-width: 820px){
+    .form-container img{
+       display: none;
+    }
+  }
+  
 
   @media screen and (min-width: 581px) and (max-width: 990px){
   

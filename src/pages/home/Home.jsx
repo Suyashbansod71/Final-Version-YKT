@@ -11,19 +11,19 @@ import Header from '../../components/header/Header'
 import Blog from '../../components/blogs/Blog'
 import CustomerTestimonials from '../../components/customerTestimonials/CustomerTestimonials'
 import Carousel1 from './Carousel1'
+import CardCarousel from '../../components/cardCarousel/CardCarousel'
 
 //  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const Home = () => {
   
-  const [activeTab, setActiveTab] = useState('home');
   
   return (
     
     <div className='home'>
       
-   <Header activeTab={activeTab}/>
+   <Header />
  <Carousel1/>
 
 
@@ -31,8 +31,10 @@ const Home = () => {
       <Philosophy/>
       <Book/>
       <OurStory/>
-      <Teacher/>
+      <CardCarousel/>
+      {/* <Teacher/> */}
       <Customers/>
+     
       <CustomerTestimonials/>
       <Blog/>
       <a href="https://wa.me/918953279337" class="whatsapp-button" target="_blank">

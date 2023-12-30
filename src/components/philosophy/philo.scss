@@ -197,7 +197,7 @@
 
   
  
-  @media screen and (min-width:645px) and (max-width:991px){
+  @media screen and (min-width:645px) and (max-width:990px){
     .philo-photo{
       width: 100%;
       height: 450px;
@@ -216,4 +216,10 @@
       margin-left: 0.6999999999999993em;
     }
     
+}
+
+@media screen and (min-width:990px) {
+  .rightParas{
+    padding-right: 2em;
+  }
 }

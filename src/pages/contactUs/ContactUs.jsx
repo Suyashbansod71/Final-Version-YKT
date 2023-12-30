@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 import "./contactus.scss"
+import Maps from '../../components/maps/Maps'
 
 const ContactUs = () => {
 
@@ -17,6 +18,8 @@ const ContactUs = () => {
       <div className="info-container">
       
         <p>
+          Why Join Us-<br></br>1.Diet Plan <br></br>2.Recording Shared<br></br>3.Cleansing Techniques<br></br>
+          4.You Can Attend The Same Class Different Batch On Same Day.<br></br> 
         Whether you're a seasoned practitioner or a curious beginner, yoga unfolds as a journey where each 
         breath carries you closer to your true self. Join this ancient practice, embark on a voyage of 
         self-discovery, and let the essence of yoga illuminate your path to a balanced and fulfilling life. Namaste.
@@ -47,6 +50,7 @@ const ContactUs = () => {
 
 
     </div>
+    <Maps/>
       <Footer/>
       </div>
   )

@@ -1,6 +1,11 @@
 import React from 'react'
 import './teacher.scss'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 export const Teacher = () => {
+
+
   return (
     <div className='teacher'>
         <div className='teachermeet'>
@@ -27,8 +32,39 @@ export const Teacher = () => {
                 Dhanshri Salunkhe – Online yoga instructor from YTT 200 hours based in Aurangabad Maharashtra. Dhanshri is a Athletic Coach.Individual globally certified by the Indian Yoga Association. She has strong yoga skills and can help yogis with building their yoga skills.[Certification Link]</div></div>
         </div>
        
-
-    </div>
+   </div>
+    
   )
 }
+
+{/* 
+const data = [
+  {
+    name: `John Morgan`,
+    img: `/students/John_Morgan.jpg`,
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+  },
+  {
+    name: `Ellie Anderson`,
+    img: `/students/Ellie_Anderson.jpg`,
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+  },
+  {
+    name: `Nia Adebayo`,
+    img: `./kavita.png`,
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+  },
+  {
+    name: `Rigo Louie`,
+    img: `./kesar.png`,
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+  },
+  {
+    name: `Mia Williams`,
+    img: `./dhanshree1_img.jpg`,
+    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+  },
+  
+]; */}
+
 export default Teacher

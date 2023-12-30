@@ -38,142 +38,63 @@ const Carousel1 = () => {
       {/* Carousel Component */}
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
-          {/* Custom Content for Slide 1 */}
-          <div className="custom-slide-content">
-          <div className="Carowelcomgroup">
-
-  <div className="Carowelcometext">
-    <div className="Carowelcomefull">
-  <div className="Carowelcome">Welcome to Yoga </div>
-  <div className="Carouselclasses">Classes With</div>
-  <div className="Carokavita">Kavita</div>
-  <div className="inhale">Inhale , Exhale & Relax </div>
-  <div className="exploreoutline">
+          
+        <div className="custom-container">
+      <div className="custom-text-container">
+        <h1 className="custom-heading">Welcome to Yoga With Kavita</h1>
+        <p className="custom-info-text">
+        Inhale, Exhale And Relax
+        </p>
+        <div className="exploreoutline">
    <div className="explore" onClick={handleExplore}>Explore Now </div>
    </div>
-  </div>
-  
-  
-   </div>
-
-
-      <div className="display">
-      <div class="welcomegrid-container">
-      <div className="displaygrid">
+      </div>
+      <div className="custom-ig-container">
+        <img src="./slide_1.png" alt="" className="custom-ig" />
+        <img src ="./display5.png" alt='' className='mobil'/>
+      </div>
+    </div>
+        </Carousel.Item>
+   
+        <Carousel.Item>
        
- <img  className='display1'   src = "./display1.png" alt = " " width = "299px " height= "178px"></img>
- <img  className='display6'    src = "./display6.png" alt = " " width = "299px " height= "178px"></img>
- </div>
-  <img  className= " display5" src = "./display5.png" alt = " " width = "465px " height= "358px"></img>
-  <img  className= "vectorIcon" alt="" src="vectorwelcom.svg" />
- 
-  </div>
-   </div>
-   </div>
-
-
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          {/* Custom Content for Slide 2 */}
-          <div className="custom-slide-content">
-         
-   <div className="Carowelcomgroup">
-
-{/* <div className="welcomecorporatetext">
-  <div className="welcomefullcorporate">
-<div className="welcomecorporate">Welcome to Corporate Yoga </div>
-<div className="corporate">Corporate Yoga Is Being Embraced By Many Progressive Business And Is A Great Benefits And Is A Geate Benefit To The Workplace </div>
-<div className="exploreoutlinecorporate">
- <div className="explorecorporate" onClick={handleExplore}>Explore Now </div>
- </div>
-</div>
- </div> */}
- <div className="Carowelcometext">
-    <div className="Carowelcomefull">
-  <div className="Carowelcome">Welcome to  </div>
-  <div className="Carouselclasses">Corporate Yoga</div>
-  
-  <div className="inhale">Corporate Yoga Is Being Embraced By Many Progressive Business And Is A Great Benefits And Is A Geate Benefit To The Workplace  </div>
-  <div className="exploreoutline">
+        <div className="custom-container">
+      <div className="custom-text-container">
+        <h1 className="custom-heading">Welcome to Corporate Yoga</h1>
+        <p className="custom-info-text">
+        Corporate Yoga Is Being Embraced By Many Progressive Business And Is A Great Benefits And Is A Geat Benefit To The Workplace.
+        </p>
+        <div className="exploreoutline">
    <div className="explore" onClick={handleExplore}>Explore Now </div>
    </div>
-  </div>
-  
-  
-   </div>
-
-
-    <div className="display">
-    <div class="welcomegrid-container">
-    <div className="displaygrid">
-<img  className='display1'   src = "./corporateyoga.jpg" alt = " " width = "299px " height= "178px"></img>
-<img  className='display6'    src = "./corporateyoga2.jpg" alt = " " width = "299px " height= "186px"></img>
-</div> 
-
-<img  className= " display5" src = "./corporateyoga3.jpg" alt = " " width = "465px " height= "366px"></img>
-
-
-
-
-</div>
- </div>
- </div>
-
-          </div>
+      </div>
+      <div className="custom-ig-container">
+        <img src="./slide_2.png" alt="" className="custom-ig" />
+        <img src ="./corporateyoga2.jpg" alt='' className='mobil'/>
+      </div>
+    </div>
         </Carousel.Item>
-        <Carousel.Item>
-          {/* Custom Content for Slide 3 */}
-          <div className="custom-slide-content">
-           
- <div className="Carowelcomgroup">
 
-{/* <div className="welcomecorporatetext">
-  <div className="welcomefullcorporate">
-<div className="welcomecorporate">Discover Yourself with Yoga </div>
-<div className="corporate">Yoga unveils inner strength, promotes self-awareness, and fosters tranquility, guiding you to discover profound self-harmony and balance.</div>
-<div className="exploreoutlinecorporate">
- <div className="explorecorporate" onClick={handleExplore}>Explore Now </div>
- </div>
-</div>
- </div> */}
- <div className="Carowelcometext">
-    <div className="Carowelcomefull">
-  <div className="Carowelcome">Discover</div>
-  <div className="Carouselclasses">Yourself With</div>
-  <div className="Carokavita">Yoga</div>
-  <div className="inhale">Yoga unveils inner strength, promotes self-awareness, and fosters tranquility, guiding you to discover profound self-harmony and balance.</div>
-  <div className="exploreoutline">
+        <Carousel.Item>
+        
+        <div className="custom-container">
+      <div className="custom-text-container">
+        <h1 className="custom-heading">Discover Yourself With Yoga</h1>
+        <p className="custom-info-text">
+        Yoga Unveils Inner Strength, Promotes Self-Awareness, And Fosters Tranquility, Guiding You To Discover Profound Self-Harmony And Balance.
+        </p>
+        <div className="exploreoutline">
    <div className="explore" onClick={handleExplore}>Explore Now </div>
    </div>
-  </div>
-  
-  
-   </div>
-
-
-    <div className="display">
-    <div class="welcomegrid-container">
-    <div className="displaygrid">
-<img  className='display1'   src = "./discover3.jpg" alt = " " width = "299px " height= "178px"></img>
-<img  className='display6'    src = "./discover.jpg" alt = " " width = "299px " height= "186px"></img>
-</div> 
-
-<img  className= " display5" src = "./discover2.jpg" alt = " " width = "465px " height= "366px"></img>
-
-
-
-
-</div>
- </div>
- </div>
-
-
-
-
-
-          </div>
+      </div>
+      <div className="custom-ig-container">
+        <img src="./slide_3.png" alt="" className="custom-ig" />
+        <img src ="./discover.jpg" alt='' className='mobil'/>
+      </div>
+    </div>
         </Carousel.Item>
+
+
       </Carousel>
 
       {/* Control Buttons */}

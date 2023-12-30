@@ -145,7 +145,7 @@ const Footer = () => {
     <div className='footer'>
        {/* <img src="./main-logo.jpeg" alt="" height= '100px' width='100px'/> */}
      <div className='sb_footer section_padding'>
-     <img onClick={handleKav} className='foot_logo' src="./main-logo.jpeg" alt="" />
+     <img onClick={handleKav} className='foot_logo' src="./main-logo.svg" alt="" />
       <div className='sb_footer-links'>
         <div className='sb_footer-links_div'>
           <h4>Important links</h4>
@@ -179,7 +179,7 @@ const Footer = () => {
           <a href='/terms'className='Foot-a'>
             <p>Terms & Conditions</p>
           </a>
-          <a href='/'className='Foot-a'>
+          <a href='/terms'className='Foot-a'>
             <p>Privacy Policy</p>
           </a>
         </div>
@@ -189,7 +189,7 @@ const Footer = () => {
             <p>+91-8953279337</p>
           </a>
           <a href='/'className='Foot-a'>
-            <p>Y@gmail.com</p>
+            <p>yogawithkavita<br></br>tripathi<br></br>@gmail.com</p>
           </a>
         </div>
         <div className='sb_footer-links_div'>

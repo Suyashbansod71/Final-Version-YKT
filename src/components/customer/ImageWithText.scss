@@ -1,12 +1,12 @@
 .image-with-text {
-  
+  opacity: 0.91;
     position: relative;
-    height: 400px; 
+    height: 580px;
     background-size: cover;
     background-position: center;
     margin-left: 5.5%;
     margin-right: 5.5%;
-    // opacity: 0.85;
+
   }
   
   .text {
@@ -17,7 +17,6 @@
     left: 14%; 
     font-size: 45px; 
     color: white; 
-    // text-shadow: 2px 2px 2px black; 
   }
 
   @media screen and (max-width:580px) {

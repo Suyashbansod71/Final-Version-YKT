@@ -18,7 +18,22 @@ const Book = () => {
 
 
   return (
-<div className='book'>
+
+    <div className="book-container">
+<div className="book-content">
+  <div className="book-image">
+    <img src="./bookimg1.svg" alt="Yoga With Kavita" />
+  </div>
+  <div className="book-details">
+    <p className="bold-text">Book Classes With Us</p>
+    <p className="bold-text">Yoga With Kavita</p>
+    <button className="book-button" onClick={handleBookNow}>
+      Book Now
+    </button>
+  </div>
+</div>
+</div>
+/* <div className='book'>
 
 <div className="bookdetails">
 
@@ -35,11 +50,13 @@ const Book = () => {
 Us Yoga with Kavita</div>
 <div className="booknowcover">
 <div className="bookexplore" onClick={handleBookNow}>Book Now</div>
+</div>
 <img className='bookvector3' src= "./bookvector3.png" alt = "" width= "150px" height= "70px"/>
 </div>
 </div>
-</div>
-</div>
+</div> */
+
+
   )
 }
 

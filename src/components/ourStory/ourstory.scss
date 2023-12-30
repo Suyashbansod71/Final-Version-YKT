@@ -129,7 +129,7 @@
     text-align: left;
     top: 3em;
     padding-top: 1.75em;
-    padding-left: 1.3em;
+    padding-left: 1.6em;
 }
 
 .story_bg{
@@ -193,17 +193,20 @@
 
   @media screen and (max-width:644px) {
     .storyvector{
+      // display: none;
         position: absolute;
     width: 119px;
     height: 167px;
     z-index: 3;
     margin-top: -22em;
+    margin-left: 2em;
     }
     .storying{
-        width: 218px;
-        height: 154px;
-        margin-left: -1em;
-        margin-top: -19em;
+      display: none;
+      width: 218px;
+      height: 154px;
+      margin-left: -2em;
+      margin-top: -21em;
     }
     .story_bg{
         height: 80%;
@@ -212,20 +215,40 @@
   }
 
 
-  @media screen and (min-width:645px)and (max-width:991px){
+  @media screen and (min-width:645px)and (max-width:990px){
     .storyvector {
       position: absolute;
-      width: 180px;
-      height: 195px;
-      z-index: 3;
+      width: 170px;
+      height: 233px;
+      margin-left: 0em;
       margin-top: -24em;
+      z-index: 3;
   }
   .storying {
     position: absolute;
-    width: 349px;
-    height: 359px;
-    margin-left: -4em;
-    margin-top: -19em;
+    width: 221px;
+    height: 212px;
+    margin-left: 2em;
+    margin-top: -14em;
     z-index: 2;
+}
+  }
+
+
+  @media screen and (min-width:990px) {
+    .storying {
+      position: absolute;
+      width: 624px;
+      height: 485px;
+      margin-left: 5em;
+      margin-top: -9em;
+      z-index: 2;
+  }
+  .storyvector {
+    position: absolute;
+    width: 250px;
+    height: 310px;
+    z-index: 3;
+    margin-top: -22em;
 }
   }

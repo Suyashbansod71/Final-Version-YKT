@@ -65,6 +65,10 @@
         height: 300px;
         border-radius: 140px;
     }
+
+  
+
+
 }
 
 
@@ -143,5 +147,35 @@
        .teachertext{
         font-size: 16px;
        }
+    }
+  }
+
+  @media screen and (min-width:990px) {
+    .teacher{
+        .teacherphoto{
+
+        }
+        .teacher_2 img {
+            width: 240px;
+            height: 240px;
+            border-radius: 140px;
+        }
+        .teacher_3 img {
+            width: 240px;
+            height: 240px;
+            border-radius: 140px;
+        }
+        .teacherimg img{
+            width: 240px;
+            height: 240px;
+            border-radius: 140px;
+        }
+        .teacherphoto {
+            display: flex;
+            margin-left: 56px;
+            margin-top: 100px;
+            gap: 87px;
+            margin-right: 20rem;
+        }
     }
   }

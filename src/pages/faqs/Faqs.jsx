@@ -11,8 +11,8 @@ const Faqs = () => {
 
   const faqs = [
     {
-      question: 'What Do I Need To Bring To Class?',
-      answer: 'Simply bring yourself dressed appropriately and perhaps a little water bottle',
+      question: 'How To Pay For The Course?',
+      answer: 'Currently we accept payments via Gpay, PhonePe on +91-8953279337 As Well As On Our UPI ID- kavitatripathi.2591-1@oksbi',
     },
     {
       question: 'Is There Any Dress Code For The Classes?',
@@ -32,7 +32,7 @@ const Faqs = () => {
     },
     {
       question: 'What Is The Refund Policy?',
-      answer: 'Not Decided Yet',
+      answer: 'Make sure the details mentioned in the payment platform are correct.Check all the details, before booking any session.No refund shall be given after the payment has been made. In any situation, we do not allow refund of the amount.',
     },
     
   ];
